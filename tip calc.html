@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <meta http-equiv="X-UA-compatible" content="ie-edge">
+        <link rel="stylesheet" type="text/css" href="tip css.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="container">
+            <p>How much are we tipping today?</p>
+            <p id="outputtext">How much is the bill?</p>
+            <input type="text" id="userInput">
+        </div>
+        <div id="percentage">
+            <p>What percentage are we tipping?</p>
+            <button onclick="twenty()" id="tip20">20%</button>
+            <button onclick="five()" id="tip25">25%</button>
+            <button onclick="fifteen()" id="tip15">15%</button>
+        </div>
+        <div id="container">
+            <p id="outputtext">Here's how much you should tip!</p>
+            <output type="text" id="userOutput"></output>
+        </div>
+        <script src="tip.js"></script>
+    </body>
+</html>
